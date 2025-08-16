@@ -1,4 +1,4 @@
-package com.project.jresult;
+package com.project.jresult.error;
 
 public enum ErrorType {
     VALIDATION,

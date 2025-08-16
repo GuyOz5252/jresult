@@ -1,4 +1,8 @@
-package com.project.jresult;
+package com.project.jresult.abstraction;
+
+import com.project.jresult.error.ErrorType;
+import com.project.jresult.ParameterizedFailure;
+import com.project.jresult.Success;
 
 import java.util.Map;
 

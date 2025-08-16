@@ -1,5 +1,8 @@
 package com.project.jresult;
 
+import com.project.jresult.abstraction.Failure;
+import com.project.jresult.error.ErrorType;
+
 import java.util.Map;
 
 public record ParameterizedFailure<T>(

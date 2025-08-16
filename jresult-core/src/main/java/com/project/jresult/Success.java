@@ -1,5 +1,8 @@
 package com.project.jresult;
 
+import com.project.jresult.abstraction.Failure;
+import com.project.jresult.abstraction.Result;
+
 public record Success<T>(T value) implements Result<T> {
     @Override
     public boolean isSuccess() {

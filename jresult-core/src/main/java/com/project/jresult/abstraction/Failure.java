@@ -1,4 +1,7 @@
-package com.project.jresult;
+package com.project.jresult.abstraction;
+
+import com.project.jresult.error.ErrorType;
+import com.project.jresult.ParameterizedFailure;
 
 public sealed interface Failure<T> extends Result<T> permits ParameterizedFailure {
     @Override
